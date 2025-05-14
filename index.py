@@ -1,25 +1,27 @@
-from biblioteca import Animal, Gato, Cachorro,Vaca,Coelho
 
-gato = Gato("Meowth", "Cinza")
+
+from biblioteca import Animal, Gato, Cachorro, Vaca, Coelho, Ingresso,Vip
+
+"""gato = Gato(nome="Meowth", cor="Cinza")
 gato.miar()
-print(gato.cor)
-print(gato.nome)
+gato.comer()
 
 
 cachoro = Cachorro(nome="Tobi",cor="Azul")
 cachoro.latir()
-print(cachoro.cor)
-print(cachoro.nome)
-
+cachoro.comer()
 
 vaca=Vaca(nome="Leite", cor="Branco")
-vaca.Mou()
-print(vaca.cor)
-print(vaca.nome)
+vaca.mou()
+vaca.comer()
 
 coelho=Coelho(nome="Fofo", cor="amarelo")
-coelho.Pular()
-print(vaca.cor)
-print(vaca.nome)
+coelho.pular()
+coelho.comer() """
 
 
+
+ingresso=Ingresso(25)
+ingresso.imprimirValor()
+ingresso=Vip(25)
+ingresso.imprimirValor()
